@@ -1,16 +1,10 @@
 import React from "react";
-import style from "./style.module.css"
-import { useDependencies } from './dependencies'
+import style from "./style.module.css";
 // ______________________________________________________
 //
-export type Props = {
-};
+export type Props = {};
 // ______________________________________________________
 //
 export const text: React.FC<Props> = (props) => {
-  const deps = useDependencies(props)
-  return (
-    <div className={style.module}>
-    </div>
-  );
-}
+  return <div className={style.module}>test002</div>;
+};
